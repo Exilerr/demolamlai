@@ -5,6 +5,14 @@ body {
 hr {
   width: 100%;
 }
+@font-face {
+  font-family: "Open Sans";
+  src: url('../font/Open_Sans/OpenSans-Italic.ttf') format('woff');
+  font-family: "Montserrat";
+  src: url('../font/Montserrat/Montserrat-Italic.ttf') format('woff');
+  font-family: "Pacifico";
+  src: url('../font/Pacifico/Pacifico-Regular.ttf') format('woff');
+}
 header {
   width: 100% ;
 }
@@ -56,7 +64,7 @@ header {
   color: black;
   align-items: center;
   padding: 0px 20px;
-  font-family: Montserrat, "Helvetica Neue", Helvetica;
+  font-family: "Montserrat";
 }
 .header-bottom li a:hover {
   text-decoration: none;
@@ -100,7 +108,7 @@ section .banner .banner-left {
 section .banner .banner-left p {
   font-size: 30px;
   color: #000000;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico";
   top: 53%;
   left: 43%;
   position: relative;
@@ -454,4 +462,3 @@ footer hr {
   float: right;
   margin-top: 15px;
 }
-/*# sourceMappingURL=style.css.map */
